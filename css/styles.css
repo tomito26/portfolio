@@ -48,6 +48,18 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.item{
+    background-color: rgba(0,0,0,0.7);
+    padding: 2rem;
+    border-radius: 10px;
+}
+.item>p{
+    font-size: 20px;
 }
 #landing-page{
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/maik-jonietz-_yMciiStJyY-unsplash.jpg);
@@ -64,6 +76,9 @@ body{
 }
 .contact>h1,p{
     text-align: center;
+}
+.contact>p{
+    font-size: 20px;
 }
 @media only screen and(max-width:600px){
     html{
