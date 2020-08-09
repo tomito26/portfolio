@@ -84,8 +84,8 @@ body{
     font-size: 20px;
 }
 .page{
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/pexels-negative-space-34600.jpg);
-    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/pexels-negative-space-34600.jpg);
+    height: 70vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
