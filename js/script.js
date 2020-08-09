@@ -5,7 +5,7 @@ $(document).ready(function(){
         let email = $('input#email').val()
         let message = $("textarea#message").val()
         // alert(message)
-    
+        
         alert(name + ' we have received your message ,thank you for reaching out')
         
         
