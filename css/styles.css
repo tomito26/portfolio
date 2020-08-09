@@ -78,10 +78,13 @@ body{
     text-align: center;
 }
 .contact>p{
-    font-size: 20px;
+    font-size: 18px;
 }
 @media only screen and(max-width:600px){
-    html{
+    body{
         overflow-x: hidden;
+    }
+    .contact> h1,p{
+        font-size: 16px;
     }
 }

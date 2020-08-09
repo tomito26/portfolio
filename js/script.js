@@ -6,7 +6,7 @@ $(document).ready(function(){
         let message = $("textarea#message").val()
         // alert(message)
     
-        alert(name + ' We have received your message ,thank you for reaching out')
+        alert(name + ' we have received your message ,thank you for reaching out')
         
         
 
