@@ -10,7 +10,7 @@ body{
 
 
 .landing-page{
-    background-image: url(../images/altumcode-dC6Pb2JdAqs-unsplash.jpg);
+    background-image: url(../images/pexels-kevin-ku-577585.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
@@ -62,7 +62,7 @@ body{
     font-size: 20px;
 }
 #landing-page{
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/maik-jonietz-_yMciiStJyY-unsplash.jpg);
+    background-image: url(../images/pexels-tranmautritam-285814.jpg);
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -74,11 +74,24 @@ body{
     flex-direction: column;
 
 }
-.contact>h1,p{
+.work{
     text-align: center;
+    background-color: rgba(0,0,0,0.7);
+    padding: 2rem;
+    border-radius: 10px;
 }
-.contact>p{
-    font-size: 18px;
+.work>p{
+    font-size: 20px;
+}
+.page{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/pexels-negative-space-34600.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contact>h2{
+    text-align: center;
 }
 @media only screen and(max-width:600px){
     body{
