@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato',sans-serif;
+    overflow-x: hidden;
+}
+
+
+.landing-page{
+    background-image: url(../images/pexels-kevin-ku-577585.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.intro{
+    text-align: center;
+    letter-spacing: 1px;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 10px;
+    padding: 3rem;
+}
+.intro>p{
+    font-size: 30px;
+}
+.footer>ul>li{
+    list-style: none;
+}
+.about{
+    text-align: center;
+}
+.image{
+    height: 300px;
+    width:   200px;
+}
+.experience{
+    text-align: center;
+}
+.landing{
+    background-image: url(../images/pexels-luis-gomes-546819.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.item{
+    background-color: rgba(0,0,0,0.7);
+    padding: 2rem;
+    border-radius: 10px;
+}
+.item>p{
+    font-size: 20px;
+}
+#landing-page{
+    background-image: url(../images/pexels-tranmautritam-285814.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.work{
+    text-align: center;
+    background-color: rgba(0,0,0,0.7);
+    padding: 2rem;
+    border-radius: 10px;
+}
+.work>p{
+    font-size: 20px;
+}
+.page{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)), url(../images/pexels-negative-space-34088.jpg);
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.contact>h2{
+    text-align: center;
+}
+@media only screen and(max-width:600px){
+    body{
+        overflow-x: hidden;
+    }
+    .contact> h1,p{
+        font-size: 16px;
+    }
+}
